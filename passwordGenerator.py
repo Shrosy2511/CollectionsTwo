@@ -7,4 +7,4 @@ choice3 = [random.choice('abcdefghijklmnopqrstuvwxyz') for i in range(8)]
 choice4 = [random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890') for i in range(3)]
 choices = choice1+choice2+choice3
 random.shuffle(choices)
-print('hier is uw wachtwoord met 24 characters:',''.join(choice+choice1+choice2+choice3+choice4))
+print('hier is uw wachtwoord met 24 characters:',''.join(choice+choices+choice4))
