@@ -70,8 +70,8 @@ def scoreboard():
 
 def chanceQ():
     global chance
-    vraag = input('wilt u uw chance gebruiken? Y/N')
-    if vraag == 'y' or vraag == 'Y':
+    vraag = input('wilt u uw chance gebruiken? Y/N').upper()
+    if vraag == 'Y':
         chance = sum(dice)
     else:
         pass
